@@ -8,7 +8,7 @@ const pinRoute = require("./routes/pins");
 dotenv.config();
 
 app.use(express.json());
-
+//connectin
 mongoose 
  .connect(process.env.MONGO_URL, {
         useNewUrlParser: true,

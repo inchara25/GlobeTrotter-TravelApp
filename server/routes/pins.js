@@ -2,7 +2,7 @@ const router = require("express").Router();
 const Pin = require("../models/Pin")
 
 
-//To create a Pin
+//To post a Pin
 
 router.post("/", async (req,res)=>{
     const newPin = new Pin(req.body);
