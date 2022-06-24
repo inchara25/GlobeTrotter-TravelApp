@@ -1,3 +1,4 @@
+//routing data into the database
 const router = require("express").Router();
 const Pin = require("../models/Pin")
 
@@ -15,7 +16,7 @@ router.post("/", async (req,res)=>{
 })
 
 
-//get all pins
+//to display pins
 
 router.get("/", async(req,res)=>{
     try{
